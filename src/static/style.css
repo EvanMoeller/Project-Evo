@@ -3,7 +3,7 @@ body{
     color: red;
 }
 
-ul{
+.navbar{
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,19 +14,19 @@ ul{
     background-color: grey;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
-    display: block;
+.navbar li a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: black;
 }
 
