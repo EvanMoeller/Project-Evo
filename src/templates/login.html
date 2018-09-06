@@ -11,5 +11,10 @@
                     <li style="float:right"><a href="{{ url_for('login') }}">Login</a></li>
                 </ul>
         </div>
+        <form action="/server.py">
+            Username: <input type="text" name="user"><br>
+            Password: <input type="text" name="passwd"<br>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
