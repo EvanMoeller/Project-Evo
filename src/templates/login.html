@@ -1,20 +1,21 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>Project-Evo : Login</title>
-        <link rel="stylesheet" href="/static/style.css" />
+        <title>Project-Evo | Login/Register</title>
+        <link rel="stylesheet" href="static/login.css" />
     </head>
     <body>
-         <div class="navbar">
-                <ul>
-                    <li><a class="active" href="{{ url_for('main') }}">Home</a></li>
-                    <li style="float:right"><a href="{{ url_for('login') }}">Login</a></li>
-                </ul>
+        <h1>Alpha Version: Project-Evo Login System</h1>
+        <div>
+            Login Box
+            <form action="#loginSystem.php">
+                Username or Email:<br>
+                <input type="text" name="username"><br>
+                Password:<br>
+                <input type="text" name="password"><br><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-        <form action="../server.py">
-            Username: <input type="text" name="user"><br>
-            Password: <input type="text" name="passwd"<br>
-            <input type="submit" value="Submit">
-        </form>
     </body>
 </html>
