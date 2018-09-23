@@ -10,16 +10,16 @@
         <div>
             Register
             <li style="float:right"><a href="{{ url_for('login') }}">Login</a></li>
-            <form action="python/loginSystem.py">
-                Email:<br>
+            <form action="server.py">
+                <label>Email:</label>
                 <input type="text" name="email"><br>
-                Name:<br>
+                <label>Name:</label>
                 <input type="text" name="name"><br>
-                Username:<br>
+                <label>Username:</label>
                 <input type="text" name="username"><br>
-                Password:<br>
+                <label>Password:</label>
                 <input type="text" name="password"><br><br>
-                <input type="submit" value="Submit">
+                <button type="submit"> Submit </button>
             </form>
         </div>
     </body>
