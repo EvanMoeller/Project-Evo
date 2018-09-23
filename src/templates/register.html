@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Project-Evo | Register</title>
+        <link rel="stylesheet" href="static/register.css" />
+    </head>
+    <body>
+        <h1>Alpha Version: Project-Evo Registration System</h1>
+        <div>
+            Register
+            <li style="float:right"><a href="{{ url_for('login') }}">Login</a></li>
+            <form action="python/loginSystem.py">
+                Email:<br>
+                <input type="text" name="email"><br>
+                Name:<br>
+                <input type="text" name="name"><br>
+                Username:<br>
+                <input type="text" name="username"><br>
+                Password:<br>
+                <input type="text" name="password"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
