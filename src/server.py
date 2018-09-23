@@ -12,6 +12,11 @@ def main():
 def login():
     return render_template('login.html')
 
+#registration system
+@app.route("/register")
+def register():
+    return render_template('register.html')
+
 #user home page
 @app.route("/home")
 def home():
